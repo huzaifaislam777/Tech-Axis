@@ -1,0 +1,109 @@
+/* Reset and global styles */
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for login box */
+.container {
+    text-align: center;
+    margin: 80px 70px;
+}
+
+/* Login Box */
+.login-box {
+    background-color: white;
+    padding: 35px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+    width: 60px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Form elements */
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: none;
+    color: #111;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e2a836;
+}
+
+/* Small text */
+.small-text {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+}
+
+a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* New Account Link */
+.new-account {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-box {
+    animation: fadeIn 0.8s ease-in-out;
+}

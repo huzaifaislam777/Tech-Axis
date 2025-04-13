@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/cart.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="/indext.html"><img src="/lOGO.jpg" ></a>
+        </div>
+
+        <div class="Search">
+            <input type="text" placeholder="Search" aria-label="Search">
+            <button>Go</button>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Shop ▼</a>
+                    <ul class="dropdown">
+                        <li><a href="/shop monitor.html">Monitors</a></li>
+                        <li><a href="/cpu.html">CPU</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <div class="cart-content">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="/m2.jpg">
+                    <div class="item-details">
+                        <h3>Gaming Monitor</h3>
+                        <p>Price: $399.9</p>
+                        <label>Quantity:
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </label>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="/c3.jpg">
+                    <div class="item-details">
+                        <h3>Cpu</h3>
+                        <p>Price: $499.9</p>
+                        <label>Quantity:
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </label>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <p>Subtotal: $700</p>
+                <a href="/sign in.html"> <button class="checkout-btn">Proceed to Checkout</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>About Us</h2>
+                <p>Your go-to store for the latest and greatest computer components and accessories.</p>
+            </div>
+            <div class="footer-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="/indext.html">Home</a></li>
+                    <li><a href="/shop monitor.html">Shop</a></li>
+                    <li><a href="about.html">Support</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>📍 Sialkot - Ugoki</p>
+                <p>✉️ support@computerstore.com</p>
+            </div>
+            <div class="footer-section">
+                <h2>Stay Updated</h2>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><img src="/icon 1.png"></a>
+                    <a href="#"><img src="/icon 2.avif"></a>
+                    <a href="#"><img src="/icon 3.avif"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Computer Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
